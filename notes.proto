@@ -1,0 +1,22 @@
+// Versão do protocol buffer
+syntax = "proto3";
+
+message Tipagem {
+    string nota = 1;
+}
+
+service NoteService {
+    rpc List (Empty) returns (NoteList) {}
+    rpc CreateNote (Tipagem) returns (Tipagem) {}
+}
+
+message Empty {}
+
+message Note {
+   string id = 1;
+   string title = 2;
+   string content = 3;
+}
+message NoteList {
+   repeated Note notes = 1;
+}
