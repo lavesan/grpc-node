@@ -9,3 +9,4 @@
 ### Support material
 
 - [Documentation on how to use .proto files](https://developers.google.com/protocol-buffers/docs/proto3)
+- [gRPC vs REST](https://www.yonego.com/nl/why-milliseconds-matter/#gref)
