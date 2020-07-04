@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node index.js",
-    "client": "node ./client/get_notes.js",
+    "server": "node server",
+    "client": "node client/get_notes.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
